@@ -1,0 +1,988 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* -----------------------------------------------------------
+first section */
+
+.first,
+.mobile,
+.portrait{
+  width: 100%;
+}
+.first_container{
+  background-color: #3e2a8f;
+}
+
+.jarallax1{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 98%;  
+}
+.menu{
+  display: none;
+}
+.nav_box{
+  position: absolute;
+  z-index: 100;
+}
+
+.navBar_btn{
+  background-color:  #ff7000;
+  border:1px solid #ff7000;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 190px;
+  font-weight: 600;
+}
+.nav-item{
+  margin: 0.5rem;
+}
+.btn_registro{
+  border: 1.5px solid #ff7000;
+  border-radius: 45px;
+  padding:  1rem;
+  font-weight: 600;
+  max-width: 190px;
+  text-align: center;
+}
+.navbar-toggler-icon img{
+  width: 1.5rem;
+  padding-bottom: 1rem ;
+}
+.nav-item .nav-link{
+  margin: 0;
+  padding: 0.4rem ;
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+}
+.logoAlteraPay_mob{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logoAlteraPay_mob img,
+.logoAlteraPay img{
+  width: 10rem;
+}
+
+.item-small{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin: 0;
+}
+.item-small a{
+  color: #b7aece!important;
+}
+
+.jarallax1_text{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.first_text h1{
+ font-weight: 900;
+ color: #ffff;
+ margin-top: 6rem;
+ margin-bottom: 3rem;
+ font-size: 30px;
+}
+
+.first_text h6{
+  color: #ffff;
+  margin-bottom: 5rem;
+  font-size: 18px;
+ }
+
+h5{
+  color: #fff;
+}
+.app_btn{
+  color:#fff;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.2rem 0.8rem;
+  border-radius: 10px;
+  margin: 0.5rem;
+}
+.app_btn img{
+  margin-right: 0.5rem;
+  width: 7rem;
+}
+
+.first_text{
+  padding: 2rem;
+}
+
+.overlay{
+  background-color: #1562ff2e;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -20;
+}
+
+.box_btns{
+  display: flex;
+  flex-direction: column;
+  justify-content: initial;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+.box_btns p{
+ font-size:12px;
+}
+
+.container_btns{
+  background-color: #372078;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  padding-top: 3rem;
+}
+.btns_hand{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+.btns_hand img{
+  width: 9rem;
+}
+.btns_text{
+  width: 60%;
+  color: #fff;
+  padding-left: 2rem;
+}
+
+.carrusel_one{
+  height: 90vh;
+}
+
+
+/* -----------------------------------------------------------
+second section */
+
+.second{
+  width: 100%;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+.second_title{
+  width: 100%;
+  text-align: center;
+}
+.second_title p{
+  font-size: 22px;
+  color: #3e2a8f;
+}
+.second_bold{
+  font-weight: 700;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border:none;
+  margin: 1rem;
+  z-index: -1;
+}
+
+.card h5{
+  color: #3e2a8f;
+  font-weight: 600;
+  font-size: 13px;
+}
+.card_text{
+    max-width: 250px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: center;
+    height: 5rem;
+}
+
+.card_text p{
+  font-size: 11px;
+}
+.card img{
+  width: 6.5rem;
+  margin-bottom: 1rem;
+}
+
+.flip_box{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+}
+
+.second_container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.group_two,
+.group_one{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -----------------------------------------------------------
+third section */
+.third{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.third_container{
+  width: 100%;
+  height: 80vh;
+  background-image: url(./img/revolucion_vertical.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: initial;
+  align-items: left;
+  padding: 1rem;
+  text-align: left;
+}
+
+.third_container h2{
+ color: #fff;
+}
+
+.third_container h2 span{
+  font-weight: 700;
+ }
+
+/* -----------------------------------------------------------
+fourth section */
+.fourth{
+  background-color:#372078;
+  padding-bottom: 5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.fourth_title{
+  text-align: center;
+} 
+
+.fourth_title p{
+  font-size: 25px;
+  color: #fff;
+  padding:5rem 0rem;
+}
+.fourth_title p span{
+  font-weight: 700;
+}
+.steps{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.carruselPay{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.stepText{
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+  justify-content: initial;
+}
+
+.stepTitle img{
+ width: 5rem;
+ margin-bottom: 1rem;
+}
+.stepDescription{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: initial;
+  text-align: center;
+  color: #fff;
+}
+
+.stepDescription h5{
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.stepDescription a{
+  text-decoration: none;
+}
+.fourth_box{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.step_Card_ghost{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.tns-nav {
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center
+}
+
+.tns-nav button {
+  margin-right: 1rem;
+  border-radius: 50px
+}
+
+.tns-horizontal.tns-subpixel {
+  white-space: inherit;
+}
+
+#carrusel_mobile1-ow.tns-outer .tns-nav button{
+    width: 12px;
+    height: 12px;
+    background-color: transparent;
+    border: 1.5px solid #ff7000;
+    margin: 2rem 0.5rem 5rem 0.5rem;
+}
+
+#carrusel_mobile1-ow.tns-outer .tns-nav button:active {
+    background-color: #ff7000;
+    border: none
+}
+
+.btn_fourth{
+  max-width: 200px;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #ff7000;
+  border-radius: 40px;
+  padding: 0.2rem 1rem;
+}
+
+/* -----------------------------------------------------------
+EMPRESAS*/
+.container_first_empresa{
+  height: auto;
+}
+.container_first_empresa img{
+  width: 100%;
+}
+.empresa_title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #372078;
+  padding: 1rem;
+}
+.empresa_title img{
+  width: 9rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.empresa_title h4{
+font-weight: 700;
+}
+.empresa_title h5{
+  color: #372078;
+  margin: 2rem 0rem;
+}
+
+.empresa_options{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+.option{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0rem;
+  border-bottom: 1px solid  #eae5e5;
+  text-align: center;
+}
+.img_option img{
+  width: 4rem;
+  margin-bottom: 1rem;
+}
+.text_option_title{
+  color: #372078;
+  font-weight: 700;
+}
+.text_option_little{
+  font-size: 12px;
+  color: #797979
+}
+
+.third_empresa{
+  background-color: #372078;
+  padding: 2rem;
+}
+.container_third{
+  color: #fff;
+  text-align: center;
+}
+.container_third h4{
+  padding: 3rem 0rem;
+}
+.container_third h6{
+  padding-bottom: 3rem;
+  color: #b7aece;
+}
+.third_form input ::placeholder{
+  font-size: 12px;
+}
+.third_form input{
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  max-width: 300px;
+  border: none;
+  border-radius: 45px;
+}
+.third_form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn_form{
+  width: 150px;
+  background-color: #ff7000;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  border: 1px solid #ff7000;
+  padding: 0.5rem 2rem;
+  border-radius: 45px;
+  margin: 2rem 0rem;
+}
+
+/* -----------------------------------------------------------
+TARIFAS */
+.first_tarifas{
+  text-align: center;
+  margin-top: 4rem;
+}
+.first_tarifas h2{
+  color: #372078;
+  font-size: 28px;
+  font-weight: 600;
+  padding-bottom: 2rem;
+}
+.card_tarifa{
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card_tarifa2{
+  max-width: 250px;
+  width: 80%;
+  height: 350px;
+  border: 1px solid #d3d3d3 ;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 20px;
+}
+
+.btn_contrata{
+  color: #fff;
+  background-color: #ff7000;
+  border:none;
+  padding: 0.5rem 1.5rem;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 45px;
+  margin: 2rem 0rem;
+}
+#carrusel_mobile2-ow.tns-outer .tns-nav button{
+  width: 12px;
+  height: 12px;
+  background-color: transparent;
+  border: 1.5px solid #ff7000;
+  margin: 1rem 0.5rem 5rem 0.5rem;
+}
+
+#carrusel_mobile2-ow.tns-outer .tns-nav button:active {
+  background-color: #ff7000;
+  border: none
+}
+.second_tarifas{
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+}
+.tarifas_img img{
+  width: 6rem;
+  margin-bottom: 2rem;
+}
+.tarifas_box_text{
+  color: #372078;
+}
+.tarifas_box_text h3{
+  font-size: 24px;
+  font-weight: 700;
+}
+.tarifas_box_text p{
+  font-size: 14px;
+}
+.tarifas_box_text p span{
+  font-weight: 600;
+}
+.tarifas_terminos p{
+  color: #372078;
+  font-size: 12px;
+  margin: 0;
+}
+.terminos_box{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.terminos_box img{
+  width: 1.2rem;
+  margin-left: 0.5rem;
+}
+
+
+
+
+
+/* -----------------------------------------------------------
+footer */
+
+footer{
+  width: 100%;
+  background-color: #3e2a8f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer_one{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.footer_logo img{
+  width: 10rem;
+}
+.footer_networks{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.footer_networks a img{
+  width: 3rem;
+  padding: 0.5rem;
+}
+.footer_two{
+  width: 100%;
+  border-top: 0.5px solid #ffff;
+  padding: 1rem;
+  text-align: center;
+}
+.footer_two p{
+  font-size: 10px;
+  font-weight: 200;
+  color: #ffff;
+  margin: 0;
+}
+.footer_two span{
+  padding-right: 2rem;
+}
+
+
+button:active,
+button:focus,
+input:active,
+input:focus {
+    outline: 0;
+    box-shadow: none
+}
+
+@media(max-width:360px){
+  .first_text {
+    padding: 1.5rem;
+  }
+  .app_btn img{
+    width: 5.5rem;
+  }
+  .box_btns p{
+    font-size: 10px;
+  }
+  .footer_two p {
+    font-size: 10px;
+  }
+  .step_Card_img img{
+    width: 12rem;
+  }
+  .card_text h5{
+    font-size: 11px;
+  }
+  .card_text p{
+    font-size: 10px;
+  }
+}
+
+@media(max-width:620px){
+  .third_container h2 br{
+    display: none;
+   }
+   .fourth_title p br{
+    display: none;
+  }
+}
+
+@media(min-width:620px){
+  .btns_hand img {
+    width: 12rem;
+  }
+  .second_title{
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+  }
+  .second_title p{
+    font-size: 28px;
+  }
+  .third_container{
+    background-image: url(./img/foto_revolucion.png);
+    padding-left: 8rem;
+    text-align: left;
+    justify-content: center;
+  }
+  .stepText{
+    flex-direction: row;
+  }
+  .stepTitle img{
+    margin-right: 2rem;
+    margin-bottom: 0rem;
+   }
+   .stepDescription{
+    text-align: left;
+  }
+  .stepDescription h5{
+    margin-bottom: 0rem;
+  }
+}
+
+@media(max-width: 992px){
+  .navbar{
+    background-color: #3e2a8f;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+  }
+
+  .logoAlteraPay{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .registro_btn{
+    color: #ff7000;
+    border: 1.5px solid  #ff7000;
+    background-color: transparent;
+    border-radius: 45px;
+    font-size: 12px;
+    padding: 0.3rem 1rem;
+    font-weight: 600;
+  }
+  .acceso_btn{
+    color: #fff;
+    background-color:#ff7000;;
+    border: 1.5px solid  #ff7000;
+    border-radius: 45px;
+    font-size: 12px;
+    padding: 0.3rem 1rem;
+    font-weight: 600;
+  }
+
+  a.nav-link{
+    text-align: right;
+  }
+  .portrait{
+    display: none;
+  }
+  .second_title{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+  .footer_logo img{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  .footer_networks{
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .app_btn{
+    background-color: transparent;
+    border: 1.5px solid #ff7000;
+    border-radius:45px;
+    padding: 0.2rem 1.5rem;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  .third_container {
+    padding:4rem 2rem;
+  }
+  .third_container h2{
+    font-size: 28px ;
+   }
+   .card_text p br{
+     display: none;
+   }
+   .fourth_title {
+     width: 70%;
+   }
+   .tarifas_box{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+   }
+  .tarifas_box_text{
+    text-align: center;
+  }
+  .tarifas_box_text p br{
+    display: none;
+  }
+  .tarifas_terminos {
+    padding: 2rem 0rem;
+  }
+  .terminos_box p{
+    font-size: 11px;
+  }
+
+
+}
+@media(min-width: 992px){
+  .mobile{
+    display: none;
+  }
+
+  .navbar{
+    background-color: #3e2a8f;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+  }
+  .box_btns{
+    flex-direction: row;
+  }
+
+  .navbar-expand-lg .navbar-nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .first_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0rem;
+    text-align: left;
+    margin-left: 10rem;
+  }
+
+
+  .first_portrait{
+    height: 100vh;
+  }
+  .hand{
+    width: 30%;}
+
+  .hand img{
+    width: 22rem;
+    margin-top: 12rem;
+  }
+  .first_text h1{
+    font-weight: 900;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 50px;
+  }
+  .jarallax1_text{
+    justify-content: left;
+  }
+  .first_text h6{
+    font-size: 25px;
+  }
+
+  .app_btn{
+    background-color: #3e2a8f;
+  }
+
+  .portrait_first_text{
+    margin-bottom: 12rem;
+    padding: 1rem;
+    text-align: left;
+  }
+
+  .second_container{
+    flex-direction: row;
+  }
+  .card_text{
+    max-width: 280px;
+  }
+  .card_text h5{
+    font-size: 18px;
+  }
+  .card_text p{
+    font-size: 14px;
+  }
+
+  .steps .slider-container{
+    width: 50%;
+  }
+  .option{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: initial;
+    align-items: center;
+    padding: 2rem 0rem;
+    text-align: left;
+  }
+
+  .container_third{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: left;
+    padding: 4rem 1rem;
+  }
+  .container_third h4{
+    padding:0rem;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .container_third h6{
+    font-size: 20px;
+  }
+  .img_option img{
+    margin-right: 2rem;
+    margin-bottom: 0rem;
+  }
+  .first_tarifas h2{
+    padding-top: 4rem;
+  }
+  .tarifas_carrusel{
+    padding: 3rem 5rem 2rem 5rem;
+  }
+  .second_tarifas{
+    height: 115vh;
+    background-image: url(./img/mujer.png);
+    padding: 7rem;
+  }
+  
+  .footer_one {
+    margin-top: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  footer {
+    padding: 0rem 3rem;
+  }
+
+}
+
+@media(min-width: 1200px){
+  .app_btn img{
+    margin-right: 0.5rem;
+    width: 10rem;
+  }
+  .second_title p{
+    font-size: 30px;
+  }
+}
