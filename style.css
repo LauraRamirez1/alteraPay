@@ -46,6 +46,11 @@ first section */
   z-index: 100;
 }
 
+.nav_bar1{
+  position: fixed;
+  z-index: 1000;
+}
+
 .navBar_btn{
   background-color:  #ff7000;
   border:1px solid #ff7000;
@@ -97,9 +102,7 @@ first section */
   align-items: left;
   margin: 0;
 }
-.item-small a{
-  color: #b7aece!important;
-}
+
 
 .jarallax1_text{
   width: 100%;
@@ -308,7 +311,7 @@ third section */
 /* -----------------------------------------------------------
 fourth section */
 .fourth{
-  background-color:#372078;
+  background-color:#3e2a8f;
   padding-bottom: 5rem;
   width: 100%;
   display: flex;
@@ -324,7 +327,7 @@ fourth section */
 .fourth_title p{
   font-size: 25px;
   color: #fff;
-  padding:5rem 0rem;
+  padding:3rem 0rem;
 }
 .fourth_title p span{
   font-weight: 700;
@@ -353,7 +356,7 @@ fourth section */
 }
 
 .stepTitle img{
- width: 5rem;
+ width: 8rem;
  margin-bottom: 1rem;
 }
 .stepDescription{
@@ -578,7 +581,8 @@ TARIFAS */
   border: none
 }
 .second_tarifas{
-  background-position: bottom;
+  background-image: url(./img/mujer_mobile.jpg);
+  background-position: 73%;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0rem 2rem;
@@ -703,6 +707,23 @@ input:focus {
     font-size: 10px;
   }
 }
+@media(max-width:420px) {
+  .tarifas_box {
+    margin-bottom: 27rem;
+  }
+}
+@media(min-width:421px) and (max-width:520px){
+  .tarifas_box {
+    margin-bottom: 30rem;
+  }
+}
+
+@media(min-width:521px) and (max-width:619px){
+  .tarifas_box {
+    margin-bottom: 40rem;
+  }
+}
+
 
 @media(max-width:620px){
   .third_container h2 br{
@@ -711,9 +732,37 @@ input:focus {
    .fourth_title p br{
     display: none;
   }
+  .registro_btn{
+    font-size: 11px;
+    padding: 0.3rem 0.5rem;
+  }
+  .acceso_btn{
+    font-size: 11px;
+    padding: 0.3rem 0.5rem;
+  }
+  .tarifas_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tarifas_box_text{
+    text-align: center;
+  }
+  .tarifas_box_text p br{
+    display: none;
+  }
 }
 
 @media(min-width:620px){
+  .registro_btn{
+    font-size: 12px;
+    padding: 0.3rem 1rem;
+  }
+  .acceso_btn{
+    font-size: 12px;
+    padding: 0.3rem 1rem;
+  }
   .btns_hand img {
     width: 12rem;
   }
@@ -743,6 +792,11 @@ input:focus {
   .stepDescription h5{
     margin-bottom: 0rem;
   }
+  .second_tarifas{
+    height: 115vh;
+    background-image: url(./img/mujer.jpg);
+    padding: 7rem;
+  }
 }
 
 @media(max-width: 992px){
@@ -752,6 +806,12 @@ input:focus {
     right: 0;
     top: 0;
     z-index: 100;
+  }
+  .nav-item .nav-link{
+    padding: 0.8rem ;
+  }
+  .item-small a{
+    color: #3e2a8f!important;
   }
 
   .logoAlteraPay{
@@ -766,8 +826,6 @@ input:focus {
     border: 1.5px solid  #ff7000;
     background-color: transparent;
     border-radius: 45px;
-    font-size: 12px;
-    padding: 0.3rem 1rem;
     font-weight: 600;
   }
   .acceso_btn{
@@ -775,8 +833,6 @@ input:focus {
     background-color:#ff7000;;
     border: 1.5px solid  #ff7000;
     border-radius: 45px;
-    font-size: 12px;
-    padding: 0.3rem 1rem;
     font-weight: 600;
   }
 
@@ -818,27 +874,15 @@ input:focus {
    .fourth_title {
      width: 70%;
    }
-   .tarifas_box{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
 
-   }
-  .tarifas_box_text{
-    text-align: center;
-  }
-  .tarifas_box_text p br{
-    display: none;
-  }
-  .tarifas_terminos {
-    padding: 2rem 0rem;
+
+  .tarifas_terminos{
+    padding: 1rem 2rem;
+    background-color: #fff;
   }
   .terminos_box p{
-    font-size: 11px;
+    font-size: 10px;
   }
-
-
 }
 @media(min-width: 992px){
   .mobile{
@@ -853,6 +897,7 @@ input:focus {
     top: 0;
     z-index: 100;
   }
+ 
   .box_btns{
     flex-direction: row;
   }
@@ -862,6 +907,9 @@ input:focus {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+  }
+  .item-small a{
+    color: #b7aece!important;
   }
 
   .first_text{
@@ -873,7 +921,6 @@ input:focus {
     text-align: left;
     margin-left: 10rem;
   }
-
 
   .first_portrait{
     height: 100vh;
@@ -911,6 +958,7 @@ input:focus {
   .second_container{
     flex-direction: row;
   }
+
   .card_text{
     max-width: 280px;
   }
@@ -960,11 +1008,7 @@ input:focus {
   .tarifas_carrusel{
     padding: 3rem 5rem 2rem 5rem;
   }
-  .second_tarifas{
-    height: 115vh;
-    background-image: url(./img/mujer.png);
-    padding: 7rem;
-  }
+
   
   .footer_one {
     margin-top: 1rem;
