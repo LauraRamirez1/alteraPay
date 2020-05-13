@@ -75,7 +75,6 @@ first section */
 }
 .navbar-toggler-icon img{
   width: 1.3rem;
-  padding-bottom: 1rem ;
 }
 .nav-item .nav-link{
   margin: 0;
@@ -356,7 +355,7 @@ fourth section */
 }
 
 .stepTitle img{
- width: 8rem;
+ width: 6rem;
  margin-bottom: 1rem;
 }
 .stepDescription{
@@ -446,6 +445,11 @@ EMPRESAS*/
 .container_first_empresa img{
   width:100%;
 }
+.second_empresa{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .empresa_title{
   display: flex;
   flex-direction: column;
@@ -460,12 +464,13 @@ EMPRESAS*/
   margin-top: 2rem;
   margin-bottom: 3rem;
 }
-.empresa_title h4{
-font-weight: 700;
+.empresa_title p{
+  font-weight: 700;
+  font-size: 16px;
 }
-.empresa_title h5{
+.empresa_title h6{
   color: #372078;
-  margin: 2rem 0rem;
+  margin-bottom: 2rem;
 }
 
 .empresa_options{
@@ -484,6 +489,8 @@ font-weight: 700;
   padding: 2rem 0rem;
   border-bottom: 1px solid  #eae5e5;
   text-align: center;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 .img_option img{
   width: 4rem;
@@ -492,6 +499,9 @@ font-weight: 700;
 .text_option_title{
   color: #372078;
   font-weight: 700;
+}
+.text_option_title{
+  margin-bottom: 3rem;
 }
 .text_option_little{
   font-size: 12px;
