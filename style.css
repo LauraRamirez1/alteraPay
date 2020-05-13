@@ -737,7 +737,16 @@ input:focus {
   .tarifas_box {
     margin-bottom: 32rem;
   }
+  .logoAlteraPay{
+    justify-content: flex-end;
+  }
 }
+@media(min-width:421px){
+  .logoAlteraPay{
+    justify-content: center;
+  }
+}
+
 @media(min-width:421px) and (max-width:520px){
   .tarifas_box {
     margin-bottom: 30rem;
@@ -841,10 +850,9 @@ input:focus {
   }
 
   .logoAlteraPay{
-    width: 80%;
+    width: calc(100vw - 110px);
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
   }
   .registro_btn{
@@ -854,6 +862,7 @@ input:focus {
     border-radius: 45px;
     font-weight: 600;
     cursor: pointer;
+    margin-right: 1rem;
   }
   .acceso_btn{
     color: #fff;
