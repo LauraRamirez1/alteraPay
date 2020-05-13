@@ -74,7 +74,7 @@ first section */
   text-align: center;
 }
 .navbar-toggler-icon img{
-  width: 1.5rem;
+  width: 1.3rem;
   padding-bottom: 1rem ;
 }
 .nav-item .nav-link{
@@ -389,6 +389,10 @@ fourth section */
   align-items: center;
   text-align: center;
 }
+.tns-outer [data-action] {
+  cursor: pointer;
+  display: none;
+}
 .tns-nav {
   border-radius: 50px;
   display: flex;
@@ -432,8 +436,15 @@ EMPRESAS*/
 .container_first_empresa{
   height: auto;
 }
+.container_first_empresa1{
+  height: 40vh;
+  background-image: url(./img/foto_empresas.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .container_first_empresa img{
-  width: 100%;
+  width:100%;
 }
 .empresa_title{
   display: flex;
@@ -674,6 +685,11 @@ footer{
 .footer_two span{
   padding-right: 2rem;
 }
+.footer_two a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
 
 
 button:active,
@@ -709,7 +725,7 @@ input:focus {
 }
 @media(max-width:420px) {
   .tarifas_box {
-    margin-bottom: 27rem;
+    margin-bottom: 32rem;
   }
 }
 @media(min-width:421px) and (max-width:520px){
@@ -827,6 +843,7 @@ input:focus {
     background-color: transparent;
     border-radius: 45px;
     font-weight: 600;
+    cursor: pointer;
   }
   .acceso_btn{
     color: #fff;

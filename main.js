@@ -13,7 +13,9 @@ var app=new Vue({
                     container: '#carrusel_mobile1',
                     navPosition:"bottom",
                     controls:false,
+                    autoplay: true,
                     speed:1000,
+                    autoplayTimeout:3500,
                 })
             }
         },
