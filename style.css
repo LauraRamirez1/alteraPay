@@ -286,7 +286,7 @@ third section */
 }
 .third_container{
   width: 100%;
-  height: 80vh;
+  height: 70vh;
   background-image: url(./img/revolucion_vertical.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -296,7 +296,7 @@ third section */
   justify-content: initial;
   align-items: left;
   padding: 1rem;
-  text-align: left;
+  text-align: justify;
 }
 
 .third_container h2{
@@ -890,14 +890,12 @@ input:focus {
     margin-bottom: 1rem;
   }
   .third_container {
-    padding:4rem 2rem;
+    padding:4rem;
   }
   .third_container h2{
-    font-size: 28px ;
+    font-size: 22px ;
    }
-   .card_text p br{
-     display: none;
-   }
+
    .fourth_title {
      width: 70%;
    }
@@ -1029,6 +1027,9 @@ input:focus {
     margin-right: 2rem;
     margin-bottom: 0rem;
   }
+  .third_container {
+    height: 80vh;
+   }
   .first_tarifas h2{
     padding-top: 4rem;
   }
