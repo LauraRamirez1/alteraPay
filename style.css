@@ -425,6 +425,7 @@ fourth section */
   border: 2px solid #ff7000;
   border-radius: 40px;
   padding: 0.2rem 1rem;
+  cursor: pointer;
 }
 
 /* -----------------------------------------------------------
