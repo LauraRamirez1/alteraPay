@@ -224,6 +224,7 @@ second section */
   text-align: center;
   border:none;
   margin: 1rem;
+  padding-left: 1rem;
   z-index: -1;
 }
 
