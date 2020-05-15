@@ -297,7 +297,7 @@ third section */
   justify-content: initial;
   align-items: left;
   padding: 1rem;
-  text-align: justify;
+  text-align: left;
 }
 
 .third_container h2{
@@ -627,6 +627,9 @@ TARIFAS */
 }
 .tarifas_box_text p span{
   font-weight: 600;
+}
+.tarifas_box_text p span a{
+  font-size: 16px;
 }
 .tarifas_terminos p{
   color: #372078;
