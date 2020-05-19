@@ -11,11 +11,17 @@ var app=new Vue({
             if(slider1) {
                 var tns_slider1 = tns({
                     container: '#carrusel_mobile1',
+                    loop: true,
+                    items: 1,
+                    nav: false,
                     navPosition:"bottom",
-                    controls:false,
-                    autoplay: true,
-                    speed:1000,
-                    autoplayTimeout:3500,
+                    // autoplay: true,
+                    speed: 1000,
+                    mouseDrag: true,
+                    // autoplayTimeout:3500,
+                    controlsContainer: "#customize-controls",
+                    items:1
+                    
                 })
             }
         },
