@@ -75,7 +75,13 @@ first section */
 }
 .navbar-toggler-icon img{
   width: 1.3rem;
+  transition: all 0.2s ease-out;
 }
+
+.navbar-toggler-icon img:hover{
+  transform: rotate(-45deg);
+} 
+
 .nav-item .nav-link{
   margin: 0;
   padding: 0.4rem ;
