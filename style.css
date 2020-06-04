@@ -197,6 +197,9 @@ h5{
 }
 .btns_hand img{
   width: 9rem;
+  z-index: 1000;
+  margin-top: 8rem;
+  position: absolute;
 }
 .btns_text{
   width: 60%;
@@ -821,7 +824,7 @@ input:focus {
     padding: 0.3rem 1rem;
   }
   .btns_hand img {
-    width: 12rem;
+    width: 9rem;
   }
   .second_title{
     margin-top: 7rem;
@@ -985,18 +988,23 @@ input:focus {
     align-items: flex-start;
     padding: 0rem;
     text-align: left;
-    margin-left: 10rem;
+    margin-left: 29rem;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
   }
 
   .first_portrait{
     height: 100vh;
   }
   .hand{
-    width: 30%;}
+    width: 30%;
+    position: absolute;
+    z-index: 1000;
+    margin-top: 7rem
+  }
 
   .hand img{
-    width: 22rem;
-    margin-top: 12rem;
+    width: 20rem;
   }
   .first_text h1{
     font-weight: 900;
