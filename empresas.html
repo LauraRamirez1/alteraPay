@@ -121,16 +121,22 @@
                     <h4>¿Necesitas más información?</h4>
                     <h6>Déjanos tus datos y nuestros <br>ejecutivos te contactarán.</h6>
                 </div>
-                <div class="third_form">
+                <form method="POST" class="third_form contact-form">
                     <input type="text" placeholder="Nombre">
                     <input type="text" placeholder="Empresa">
                     <input type="text" placeholder="Cargo/Posición">
                     <input type="text" placeholder="Email de contacto">
                     <input type="text" placeholder="Teléfono de contacto">
                     <div class="box_btn">
-                        <button class="btn_form">Enviar</button>
+                        <button id="submit" class="btn_form">Enviar</button>
                     </div>
-                </div>
+                    <div class="input-row" id="send-success">
+                        <p class="error-msg">Solicitud enviada correctamente!</p>
+                    </div>
+                    <div class="input-row" id="send-error">
+                        <p class="error-msg">*Error enviado formulario. Inténtelo de nuevo más tarde</p>
+                    </div>
+                </form>
             </div>
         </section>
         <footer>
@@ -164,7 +170,7 @@
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
@@ -175,4 +181,39 @@
   AOS.init();
 </script>
 <script src="./main.js"></script>
+<script>
+    $('#submit').click(function() {
+
+        $('#submit').css({
+            pointerEvents: 'none',
+            opacity: 0.9
+        })
+
+        $.post("./contact.php", $(".contact-form").serialize(), function(response) {
+            var json = JSON.parse(JSON.stringify(eval("(" + response + ")")));
+            if(json.success){
+                $('#send-success').css({display: 'block'});
+                $('#submit').css({
+                    pointerEvents: 'initial',
+                    opacity: 1
+                });
+                setTimeout( function() {
+                    $('#send-success').css({display: 'none'});
+                }, 3000)	
+            } else{
+                $('#submit').css({
+                    pointerEvents: 'initial',
+                    opacity: 1
+                })
+                $('#send-error').css({display: 'block'});
+                setTimeout( function() {
+                    $('#send-error').css({display: 'none'});
+                }, 3000)
+            } 
+
+        });
+        return false;
+
+    });
+</script>
 </html>
