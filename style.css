@@ -178,7 +178,7 @@ h5{
   flex-direction: row;
   justify-content: end;
   align-items: center;
-  padding-top: 1rem;
+  padding: 1rem;
 }
 .btns_hand{
   width: 40%;
@@ -188,8 +188,7 @@ h5{
   align-items: baseline;
 }
 .btns_hand img{
-  width: 9rem;
-  padding-bottom: 1rem;
+  width: 8.5rem;
 }
 .btns_text{
   width: 60%;
