@@ -36,7 +36,7 @@ first section */
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 98%;  
+  height: 70vh
 }
 .menu{
   display: none;
@@ -161,14 +161,6 @@ h5{
   padding: 2rem;
 }
 
-/* .overlay{
-  background-color: #1562ff2e;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  z-index: -20;
-} */
-
 .box_btns{
   display: flex;
   flex-direction: column;
@@ -186,7 +178,7 @@ h5{
   flex-direction: row;
   justify-content: end;
   align-items: center;
-  padding-top: 3rem;
+  padding-top: 1rem;
 }
 .btns_hand{
   width: 40%;
@@ -197,9 +189,7 @@ h5{
 }
 .btns_hand img{
   width: 9rem;
-  z-index: 80;
-  margin-top: 8rem;
-  position: absolute;
+  padding-bottom: 1rem;
 }
 .btns_text{
   width: 60%;
@@ -1054,6 +1044,9 @@ input:focus {
     margin-bottom: 1rem;
     font-size: 50px;
   }
+  .jarallax1{
+    height: 100vh;
+  }
   .jarallax1_text{
     justify-content: left;
   }
@@ -1163,8 +1156,13 @@ input:focus {
     margin-bottom: 3rem;
   }
   .second_title {
-    margin-top: 12rem;
+    margin-top: 14rem;
   } 
+  .btns_hand img{
+    z-index: 80;
+    margin-top: 20rem;
+    position: absolute;
+  }
   .footer_one {
     margin-top: 1rem;
     flex-direction: row;
