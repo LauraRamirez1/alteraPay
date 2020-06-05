@@ -81,7 +81,7 @@
                 </div>
             </div>
             <div class="jarallas_box mobile">
-                <video width="100%" height="auto" autoplay loop controls>
+                <video id="video_mobile" width="100%" height="auto" autoplay loop>
                     <source src="./img/video_2.mp4" type="video/mp4">
                 </video>
             </div>
@@ -275,4 +275,7 @@
   AOS.init();
 </script>
 <script src="./main.js"></script>
+<script>
+    document.getElementById('video_mobile').play();
+</script>
 </html>
