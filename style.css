@@ -36,7 +36,7 @@ first section */
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 70vh
+  /* height: 70vh */
 }
 .menu{
   display: none;
@@ -189,6 +189,14 @@ h5{
 }
 .btns_hand img{
   width: 8.5rem;
+}
+#VideoWorker-1 {
+  width: 100%!important;
+  height: auto!important;
+  margin: 110px 0 0 0!important;
+}
+.text_1{
+  margin: 9rem 0rem;
 }
 .btns_text{
   width: 60%;
@@ -790,6 +798,10 @@ input:focus {
   .card_text p{
     font-size: 10px;
   }
+  .registro_btn,
+  .acceso_btn {
+    font-size: 9px; 
+  }
 }
 @media(max-width:420px) {
   .tarifas_box {
@@ -803,6 +815,9 @@ input:focus {
   .logoAlteraPay{
     justify-content: center;
   }
+  .text_1 {
+    margin: 12rem 0rem;
+  }
 }
 
 @media(min-width:421px) and (max-width:520px){
@@ -814,6 +829,9 @@ input:focus {
 @media(min-width:521px) and (max-width:619px){
   .tarifas_box {
     margin-bottom: 40rem;
+  }
+  .text_1 {
+    margin: 14.5rem 0rem;
   }
 }
 
@@ -887,6 +905,9 @@ input:focus {
     height: 115vh;
     background-image: url(./img/mujer.jpg);
     padding: 7rem;
+  }
+  .text_1 {
+    margin: 16rem 0rem;
   }
 }
 
