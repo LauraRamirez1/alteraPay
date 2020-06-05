@@ -197,7 +197,7 @@ h5{
 }
 .btns_hand img{
   width: 9rem;
-  z-index: 1000;
+  z-index: 80;
   margin-top: 8rem;
   position: absolute;
 }
@@ -438,12 +438,16 @@ fourth section */
 .btn_fourth{
   max-width: 200px;
   background-color: transparent;
-  color: #fff;
   border: 2px solid #ff7000;
   border-radius: 40px;
   padding: 0.2rem 1rem;
   cursor: pointer;
   margin-top: 4rem;
+  text-decoration: none;
+}
+.btn_fourth a{
+  text-decoration: none;
+  color: #fff;
 }
 .controls {
   list-style: none;
@@ -694,7 +698,7 @@ TARIFAS */
 }
 .terminos_title h4{
   color: #372078;
-  margin-top: 6rem;
+  margin-top: 3rem;
   margin-bottom: 1rem;
   font-weight: 900;
 }
@@ -702,6 +706,16 @@ TARIFAS */
   text-align: justify;
   padding-bottom: 1rem;
 }
+.app_btn{
+  background-color: transparent;
+  border: 1.5px solid #ff7000;
+  border-radius:45px;
+  padding: 0.2rem 1.5rem;
+  margin: 0;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
 
 
 /* -----------------------------------------------------------
@@ -823,6 +837,7 @@ input:focus {
     font-size: 11px;
     padding: 0.3rem 0.5rem;
   }
+
   .acceso_btn{
     font-size: 11px;
     padding: 0.3rem 0.5rem;
@@ -912,7 +927,6 @@ input:focus {
     align-items: center;
   }
   .registro_btn{
-    color: #ff7000;
     border: 1.5px solid  #ff7000;
     background-color: transparent;
     border-radius: 45px;
@@ -920,12 +934,20 @@ input:focus {
     cursor: pointer;
     margin-right: 1rem;
   }
+  .registro_btn a{
+    text-decoration: none;
+    color: #ff7000;
+  }
   .acceso_btn{
     color: #fff;
     background-color:#ff7000;;
     border: 1.5px solid  #ff7000;
     border-radius: 45px;
     font-weight: 600;
+  }
+  .acceso_btn a{
+    text-decoration: none;
+    color: #fff;
   }
 
   a.nav-link{
@@ -946,14 +968,7 @@ input:focus {
     width: 100%;
     margin-bottom: 2rem;
   }
-  .app_btn{
-    background-color: transparent;
-    border: 1.5px solid #ff7000;
-    border-radius:45px;
-    padding: 0.2rem 1.5rem;
-    margin: 0;
-    margin-bottom: 1rem;
-  }
+ 
   .third_container {
     padding:4rem;
   }
@@ -1026,7 +1041,7 @@ input:focus {
   .hand{
     width: 30%;
     position: absolute;
-    z-index: 1000;
+    z-index: 100;
     margin-top: 7rem
   }
 
@@ -1126,6 +1141,30 @@ input:focus {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+  .btns_text br{
+    display: none;
+  }
+  .btn_group{
+    display: flex;
+    flex-direction: row;
+    justify-content: initial;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .btns_hand img {
+    width: 14rem;
+  }
+  .btns_hand img {
+    margin-top: 18rem;
+    margin-left: 10rem;
+  } 
+  .btns_text h6{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+  .second_title {
+    margin-top: 12rem;
+  } 
   .footer_one {
     margin-top: 1rem;
     flex-direction: row;
